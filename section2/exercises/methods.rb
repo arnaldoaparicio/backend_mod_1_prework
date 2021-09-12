@@ -12,21 +12,33 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def addition_method(num1, num2)
+  puts num1 + num2
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+addition_method(1,2)
+addition_method(50,60)
+addition_method(23,76)
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
 
+def first_meeting(man, woman)
+  puts man + ' ' + woman
+end
+
+first_meeting('When Harry', 'Met Sally')
+first_meeting('Jerome Proposed', 'To Megan')
+first_meeting('Michael Asked', 'Kate To Prom')
 #-------------------
 # PART 3: Naming is Hard
 #-------------------
@@ -38,4 +50,5 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+# I named the function "first_meeting" because these are scenarios that can happen during a first meeting between a man and a woman
+# I named each parameter "man" and "woman" because it listed relevant information pertaining to their own respective parameters.
