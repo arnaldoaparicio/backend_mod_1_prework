@@ -76,7 +76,13 @@ def fizzbuzz(num_1, num_2, range)
   # Ends everything else
 end
 
-# Calling a new "fizzbuzz" method that contains its own elements
+# Calling a new "fizzbuzz" method that is passing in arguments
 fizzbuzz(3, 5, 100)
-# Calling another new "fizzbuzz" method that contains its own elements
+
+# Creates new line which allows to display blank line
+puts "\n"
+# Calling another new "fizzbuzz" method that is passing in arguments
 fizzbuzz(5, 8, 400)
+
+# Creates new line which allows to display blank line
+puts "\n"
